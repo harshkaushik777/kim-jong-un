@@ -1,0 +1,71 @@
+body 
+{
+    margin: 0;
+}
+nav{
+    background-color: rgb(199, 73, 73);
+}
+h1{
+    color: whitesmoke;
+}
+.flex-container{
+    display: flex;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 701;
+    transition: 100s all;
+}
+a:hover{
+    background-color: blue;
+    color: aqua;
+}
+.flex-item1{
+    flex: 20%;
+    background-color: blueviolet;
+}
+.flex-item2{
+    flex: 80%;
+}
+ul{
+    list-style-type: none;
+}
+li
+{
+    display: inline;
+    margin-left: 43px;
+}
+.slider{
+
+    height: 600px;
+    background-image: url('../hk/images/bul.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: animate;
+    animation-duration: .5s;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animate{
+    from{ 
+        background-image: url('images/bul.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+    to{
+        background-image: url('images/bulbul.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+
+
+
+
+
